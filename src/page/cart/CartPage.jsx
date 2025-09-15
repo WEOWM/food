@@ -29,7 +29,7 @@ function CartPage() {
           <p className="text-lg mb-6">Thank you for your purchase.</p>
           <button
             onClick={() => {
-              setOrderPlaced(false);
+            //   setOrderPlaced(false);
               navigate("/home");
             }}
             className="px-8 py-3 bg-white text-green-600 font-semibold rounded-lg shadow hover:scale-105 transform transition"
