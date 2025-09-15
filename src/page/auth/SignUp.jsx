@@ -31,7 +31,7 @@ function SignUp() {
     // Save user
     localStorage.setItem("signup", JSON.stringify(signform));
     toast.success("User registered successfully!");
-    setTimeout(() => navigate("/login"), 1500); // navigate after toast
+    setTimeout(() => navigate("/home"), 1500); // navigate after toast
   };
 
   useEffect(() => {
