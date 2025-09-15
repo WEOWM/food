@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+.CarouselSlider .swiper-pagination-bullet-active {
+  /* background: linear-gradient(270deg, #4d5ef6, #f64d4d); */
+  background-color: aliceblue;
+}
+.CarouselSlider .swiper-pagination-bullet {
+  background-color: white;
+  width: 30px;
+  height: 2px;
+  border-radius: 1px;
+}
